@@ -1,0 +1,21 @@
+$base-color: rgb(0, 140, 223);
+$list-header-bg-color: #333333;
+$list-active-color:#d9d9d9;
+$form-field-height:2em;
+.x-title {
+	font-size:1em !important
+}
+.x-list-header {
+color: #FFFFFF !important
+}
+
+// The following two lines import the default Sencha Touch theme. If you are building
+// a new theme, remove them and the add your own CSS on top of the base CSS (which
+// is already included in your app.json file).
+@import 'sencha-touch/default';
+@import 'sencha-touch/default/all';
+
+// Custom code goes here..
+
+// Examples of using the icon mixin:
+// @include icon('user');
